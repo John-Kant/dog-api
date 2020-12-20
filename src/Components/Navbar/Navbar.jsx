@@ -1,13 +1,14 @@
 import React from 'react'
+import { FaBars, FaTimes } from "react-icons/fa"
 import "./Navbar.css"
 
 function Navbar() {
     return (
         <div className="header">
-            <h2 className="logo">DarkCode</h2>
+            <h2 className="logo">Dog Api</h2>
             <input type="checkbox" id="chk" />
             <label htmlFor="chk" className="show-menu-btn">
-                <i className="fas fa-ellipsis-h" />
+                <FaBars />
             </label>
             <ul className="menu">
                 <a href="#">Home</a>
@@ -16,7 +17,7 @@ function Navbar() {
                 <a href="#">Works</a>
                 <a href="#">Contact</a>
                 <label htmlFor="chk" className="hide-menu-btn">
-                    <i className="fas fa-times" />
+                    <FaTimes />
                 </label>
             </ul>
         </div>
