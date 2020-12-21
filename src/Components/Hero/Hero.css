@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.3rem;
+}
+
+.hero {
+    min-height: calc(60vh);
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../images/hero.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .banner {
+    width: 85vw;
+    max-width: 1170px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+  .hero {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 1.75rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .banner {
+      margin-top: 0;
+    }
+  
+    .hero h1 {
+      font-size: 5.3rem;
+    }
+    .hero {
+      font-size: 2.3rem;
+    }
+  }
