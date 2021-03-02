@@ -20,7 +20,7 @@ h1 {
         rgba(0, 0, 0, 0.5)
       ),
       url("../../images/hero.jpg") center/cover no-repeat;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     color: #ffffff;
